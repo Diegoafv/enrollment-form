@@ -70,9 +70,37 @@
               </div>
             </div>
           </fieldset>
+
+          <fieldset class="address">
+            <legend>Address</legend>
+
+            <div class="input-wrapper">
+              <label for="zipcode">Zip code</label>
+              <input type="text" id="zipcode" name="zipcode" placeholder="Zip code" required>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="street">Street</label>
+              <input type="text" id="street" name="street" value="1001 Hollywood Blvd" disabled>
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" value="Los Angeles" disabled>
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" value="CA" disabled>
+              </div>
+            </div>
+
+          </fieldset>
+
         </form>
       </div>
-    </main> 
+    </main>
 
     <aside>
       <div class="aside-container">
