@@ -34,9 +34,10 @@
       color: var(--text-tertiary);
     }
 
+
     & svg path {
       stroke: var(--stroke-highlight);
     }
-    
+
   }
 }
